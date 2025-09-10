@@ -32,6 +32,7 @@ import recipefinder from "./projects/recipefinder.png";
 import freshcart from "./projects/freshcart.png";
 import sarahaapp from "./projects/sarahaapp.png";
 import librarymanagementsystem from "./projects/librarymanagementsystem.png";
+import heartdisease from "./projects/heartdisease.png";
 
 
 // ========== Certificates ============
@@ -72,6 +73,7 @@ export {
   freshcart,
   sarahaapp,
   librarymanagementsystem,
+  heartdisease,
   Sprints_ML,
   DC_AI,
   DC_SQL1,

@@ -24,6 +24,7 @@ import {
   freshcart,
   sarahaapp,
   librarymanagementsystem,
+  heartdisease,
   Sprints_ML,
   DC_AI,
   DC_SQL1,
@@ -156,6 +157,19 @@ export const projects = [
     ],
     image: librarymanagementsystem,
     source_code_link: "https://github.com/MohabHamdy3/library-management",
+  },
+    {
+    name: "Heart Disease Prediction",
+    description:
+      "A machine learning project that predicts the likelihood of heart disease using patient health data. Built with Python and deployed as an interactive web app with Streamlit. Includes a demo and repository link.",
+    tags: [
+      { name: "Python", color: "blue-text-gradient" },
+      { name: "Machine Learning", color: "green-text-gradient" },
+      { name: "Streamlit", color: "pink-text-gradient" },
+      { name: "Scikit-learn", color: "yellow-text-gradient" },
+    ],
+    image: heartdisease,
+    source_code_link: "https://github.com/MohabHamdy3/Heart_Disease_project",
   },
 ];
 

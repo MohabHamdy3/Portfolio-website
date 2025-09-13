@@ -1,7 +1,4 @@
 // /assets/index.js
-import close from "./close.svg";
-import menu from "./menu.svg";
-import logo from "./logo.png";
 // ========== Technologies ==========
 import python from "./tech-stack/python.png";
 import java from "./tech-stack/java.png";
@@ -45,9 +42,6 @@ import DC_SQL2 from "./certificates/Datacamp-SQL2.png";
 
 // ========== Export ==========
 export {
-  close,
-  menu,
-  logo,
   python,
   java,
   cpp,

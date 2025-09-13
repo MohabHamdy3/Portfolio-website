@@ -1,13 +1,16 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { close, logo, menu } from "../assets/index.js";
 import { navLinks } from "../constants";
 import { styles } from "../styles";
 
+const logo = "/logo.png";
+const menu = "/menu.png";
+const close = "/close.svg";
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+
 
   const toggleResume = () => {
     const resumeUrl =

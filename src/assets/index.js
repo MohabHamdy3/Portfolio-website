@@ -30,6 +30,7 @@ import freshcart from "./projects/freshcart.png";
 import sarahaapp from "./projects/sarahaapp.png";
 import librarymanagementsystem from "./projects/librarymanagementsystem.png";
 import heartdisease from "./projects/heartdisease.png";
+import deepfakedetection from "./projects/deepfakedetection.png";
 
 
 // ========== Certificates ============
@@ -37,6 +38,10 @@ import Sprints_ML from "./certificates/Sprints-AI&ML.png";
 import DC_AI from "./certificates/Datacamp-AI.png";
 import DC_SQL1 from "./certificates/Datacamp-SQL1.png";
 import DC_SQL2 from "./certificates/Datacamp-SQL2.png";
+import DEPI_ML from "./certificates/DEPI-ML.jpg";
+import Route_FS from "./certificates/Route-Full Stack.png";
+import Coursera_ML1 from "./certificates/Coursera-ML1.png";
+import Coursera_ML2 from "./certificates/Coursera-ML2.png";
 
 
 
@@ -68,8 +73,13 @@ export {
   sarahaapp,
   librarymanagementsystem,
   heartdisease,
+  deepfakedetection,
   Sprints_ML,
   DC_AI,
   DC_SQL1,
-  DC_SQL2
+  DC_SQL2,
+  DEPI_ML,
+  Route_FS,
+  Coursera_ML1,
+  Coursera_ML2,
 };

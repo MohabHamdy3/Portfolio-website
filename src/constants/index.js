@@ -25,10 +25,15 @@ import {
   sarahaapp,
   librarymanagementsystem,
   heartdisease,
+  deepfakedetection,
   Sprints_ML,
   DC_AI,
   DC_SQL1,
-  DC_SQL2
+  DC_SQL2,
+  DEPI_ML,
+  Route_FS,
+  Coursera_ML1,
+  Coursera_ML2,
 } from "../assets/index.js";
 
 export const navLinks = [
@@ -89,7 +94,7 @@ export const experiences = [
       "Gained hands-on experience in Machine Learning, Deep Learning, NLP (with Attention Models), and Computer Vision.",
       "Worked with MLOps tools such as MLflow and Hugging Face for model management and deployment.",
       "Leveraged Microsoft Azure AI & Cloud services to deploy scalable ML solutions.",
-      "Completed a Capstone Project, integrating the full ML pipeline from raw data to deployment."
+      "Completed a Capstone Project, integrating the full ML pipeline from raw data to deployment.",
     ],
   },
   {
@@ -104,12 +109,39 @@ export const experiences = [
       "Gained hands-on experience with Node.js, Express.js, and Django for building scalable back-end services and APIs.",
       "Applied SQL and MySQL for database design, queries, and relational data management.",
       "Implemented authentication, role-based access, and CRUD operations across multiple projects.",
-      "Completed a Capstone Project, delivering a full-stack web application integrating front-end, back-end, and database layers."
+      "Completed a Capstone Project, delivering a full-stack web application integrating front-end, back-end, and database layers.",
     ],
   },
 ];
 
 export const projects = [
+  {
+    name: "Deepfake Detection System",
+    description:
+      "A machine learning–based system for detecting deepfake images and videos using deep learning techniques. The project focuses on identifying manipulated media through feature extraction and model training, with an emphasis on accuracy and real-world applicability.",
+    tags: [
+      { name: "Python", color: "blue-text-gradient" },
+      { name: "Deep Learning", color: "green-text-gradient" },
+      { name: "Computer Vision", color: "pink-text-gradient" },
+      { name: "TensorFlow", color: "yellow-text-gradient" },
+      { name: "Pytorch", color: "yellow-text-gradient" },
+    ],
+    image: deepfakedetection,
+    source_code_link: "https://github.com/MohabHamdy3/DEPI-Project",
+  },
+  {
+    name: "Heart Disease Prediction",
+    description:
+      "A machine learning project that predicts the likelihood of heart disease using patient health data. Built with Python and deployed as an interactive web app with Streamlit. Includes a demo and repository link.",
+    tags: [
+      { name: "Python", color: "blue-text-gradient" },
+      { name: "Machine Learning", color: "green-text-gradient" },
+      { name: "Streamlit", color: "pink-text-gradient" },
+      { name: "Scikit-learn", color: "yellow-text-gradient" },
+    ],
+    image: heartdisease,
+    source_code_link: "https://github.com/MohabHamdy3/Heart_Disease_project",
+  },
   {
     name: "Recipe-Finder",
     description:
@@ -131,7 +163,6 @@ export const projects = [
       { name: "API", color: "green-text-gradient" },
       { name: "Tailwind CSS", color: "pink-text-gradient" },
       { name: "JavaScript", color: "yellow-text-gradient" },
-
     ],
     image: freshcart,
     source_code_link: "https://github.com/MohabHamdy3/FreshCart-website",
@@ -162,60 +193,67 @@ export const projects = [
     image: librarymanagementsystem,
     source_code_link: "https://github.com/MohabHamdy3/library-management",
   },
-    {
-    name: "Heart Disease Prediction",
-    description:
-      "A machine learning project that predicts the likelihood of heart disease using patient health data. Built with Python and deployed as an interactive web app with Streamlit. Includes a demo and repository link.",
-    tags: [
-      { name: "Python", color: "blue-text-gradient" },
-      { name: "Machine Learning", color: "green-text-gradient" },
-      { name: "Streamlit", color: "pink-text-gradient" },
-      { name: "Scikit-learn", color: "yellow-text-gradient" },
-    ],
-    image: heartdisease,
-    source_code_link: "https://github.com/MohabHamdy3/Heart_Disease_project",
-  },
 ];
 
 export const certificates = [
   {
     name: "Machine Learning Engineer Scholarship",
-    description: "Earned a scholarship for the Machine Learning Engineer program with Digital Egypt Pioneers Initiative - DEPI",
-    image: "",
-    link: "",
+    description:
+      "Earned a scholarship for the Machine Learning Engineer program with Digital Egypt Pioneers Initiative - DEPI",
+    image: DEPI_ML,
+    link: "https://drive.google.com/file/d/1SbsmAG7FwSGq7W-WKsKPm1KogwhFanSm/view?usp=sharing",
+    date: "2026-01-25",
   },
   {
     name: "Full-Stack Development",
     description: "Route Academy certified Full-Stack Developer.",
-    image: "" ,
-    link: "",
+    image: Route_FS,
+    link: "https://drive.google.com/file/d/1KKZeDDlpJnyMj6afRW3xX6iQLWkztKqn/view?usp=drive_link",
+    date: "2025-12-23",
   },
+  {
+    name: "Advanced Learning Algorithms",
+    description:
+      "Completed an advanced Stanford Online course by DeepLearning.AI focusing on neural networks, decision trees, ensemble methods, and practical machine learning optimization techniques.",
+    image: Coursera_ML2,
+    link: "https://drive.google.com/file/d/1RJebzhbgEgo0VXP0WJwM_QvYkWbueBZj/view?usp=drive_link",
+    date: "2025-11-04",
+  },
+  {
+    name: "Supervised Machine Learning: Regression and Classification",
+    description:
+      "Completed a Stanford Online course by DeepLearning.AI covering supervised learning fundamentals, including linear regression, logistic regression, and classification techniques.",
+    image: Coursera_ML1,
+    link: "https://drive.google.com/file/d/1BcskM_ILddSNzL2KjDnCrRGYshJkqf1h/view?usp=drive_link",
+    date: "2025-10-09",
+  },
+
   {
     name: "Sprints AI & ML",
     description: "Completed the Sprints AI & ML program.",
     image: Sprints_ML,
     link: "https://drive.google.com/file/d/1zsnBW_D3lPSpc4yJtf_hJUBSQk7IQ35P/view?usp=sharing",
-    date: "2025-08-30"
+    date: "2025-08-30",
   },
   {
     name: "DataCamp AI",
     description: "Completed the DataCamp AI program.",
     image: DC_AI,
     link: "https://drive.google.com/file/d/1njtMRf9IjPGn-ygJxe0DXuy3BfF2-Pfv/view?usp=sharing",
-    date: "2025-01-29"
+    date: "2025-01-29",
   },
   {
     name: "DataCamp SQL1",
     description: "Completed the DataCamp SQL1 program.",
     image: DC_SQL1,
     link: "https://drive.google.com/file/d/1_k2lFjDBXxZKqd0QsI7DqRNBAx6mvDQU/view?usp=sharing",
-    date: "2025-02-23"
+    date: "2025-02-23",
   },
   {
     name: "DataCamp SQL2",
     description: "Completed the DataCamp SQL2 program.",
     image: DC_SQL2,
     link: "https://drive.google.com/file/d/1zsnBW_D3lPSpc4yJtf_hJUBSQk7IQ35P/view?usp=sharing",
-    date: "2025-03-02"
-  }
+    date: "2025-03-02",
+  },
 ];

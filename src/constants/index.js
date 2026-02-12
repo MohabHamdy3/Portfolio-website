@@ -34,6 +34,8 @@ import {
   Route_FS,
   Coursera_ML1,
   Coursera_ML2,
+  Coursera_ML3,
+  Coursera_ML_Specialization,
 } from "../assets/index.js";
 
 export const navLinks = [
@@ -87,7 +89,7 @@ export const experiences = [
     company_name: "Digital Egypt Pioneers Initiative - DEPI",
     icon: DEPI,
     iconBg: "#161329",
-    date: "Jul 2025 - Present",
+    date: "Jul 2025 - Jan 2026",
     points: [
       "Built a strong foundation in Mathematics (Statistics, Linear Algebra) and Python programming for data science and AI.",
       "Applied data preprocessing, visualization, and feature engineering techniques on real datasets.",
@@ -102,7 +104,7 @@ export const experiences = [
     company_name: "Route Academy",
     icon: ROUTE,
     iconBg: "#161329",
-    date: "Sep 2024 - Present",
+    date: "Sep 2024 - Dec 2025",
     points: [
       "Built a strong foundation in HTML, CSS, JavaScript, Bootstrap, and TailwindCSS for responsive front-end development.",
       "Developed interactive single-page applications using React.js with state management and reusable components.",
@@ -211,6 +213,23 @@ export const certificates = [
     link: "https://drive.google.com/file/d/1KKZeDDlpJnyMj6afRW3xX6iQLWkztKqn/view?usp=drive_link",
     date: "2025-12-23",
   },
+  {
+    name: "Machine Learning Specialization",
+    description:
+      "Completed the full Machine Learning Specialization by Stanford Online and DeepLearning.AI, covering supervised learning, advanced learning algorithms, and unsupervised learning, recommenders, and reinforcement learning.",
+    image: Coursera_ML_Specialization,
+    link: "https://drive.google.com/file/d/16ul_L2eaEbxzCTUCJiqIVXFeW68AmMY6/view?usp=drive_link",
+    date: "2026-02-08",
+  },
+  {
+    name: "Unsupervised Learning, Recommenders, Reinforcement Learning",
+    description:
+      "Completed a Stanford Online course by DeepLearning.AI covering clustering, anomaly detection, recommender systems, and reinforcement learning fundamentals.",
+    image: Coursera_ML3,
+    link: "https://drive.google.com/file/d/1S8HFLpeZ2ogfiSkxjq2JDcXs3jeydm0C/view?usp=drive_link",
+    date: "2026-02-08",
+  },
+
   {
     name: "Advanced Learning Algorithms",
     description:

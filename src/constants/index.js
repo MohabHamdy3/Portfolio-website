@@ -31,11 +31,10 @@ import {
   DC_SQL1,
   DC_SQL2,
   DEPI_ML,
+  DEPI_EN,
   Route_FS,
   Coursera_ML1,
   Coursera_ML2,
-  Coursera_ML3,
-  Coursera_ML_Specialization,
 } from "../assets/index.js";
 
 export const navLinks = [
@@ -62,8 +61,8 @@ export const navLinks = [
 ];
 
 export const services = [
-  { title: "C++", icon: cpp },
   { title: "Python", icon: python },
+  { title: "C++", icon: cpp },
   { title: "JS", icon: javascript },
   { title: "Java", icon: java },
 ];
@@ -89,7 +88,7 @@ export const experiences = [
     company_name: "Digital Egypt Pioneers Initiative - DEPI",
     icon: DEPI,
     iconBg: "#161329",
-    date: "Jul 2025 - Jan 2026",
+    date: "Jul 2025 - Dec 2025",
     points: [
       "Built a strong foundation in Mathematics (Statistics, Linear Algebra) and Python programming for data science and AI.",
       "Applied data preprocessing, visualization, and feature engineering techniques on real datasets.",
@@ -104,7 +103,7 @@ export const experiences = [
     company_name: "Route Academy",
     icon: ROUTE,
     iconBg: "#161329",
-    date: "Sep 2024 - Dec 2025",
+    date: "Sep 2024 - Oct 2025",
     points: [
       "Built a strong foundation in HTML, CSS, JavaScript, Bootstrap, and TailwindCSS for responsive front-end development.",
       "Developed interactive single-page applications using React.js with state management and reusable components.",
@@ -214,23 +213,6 @@ export const certificates = [
     date: "2025-12-23",
   },
   {
-    name: "Machine Learning Specialization",
-    description:
-      "Completed the full Machine Learning Specialization by Stanford Online and DeepLearning.AI, covering supervised learning, advanced learning algorithms, and unsupervised learning, recommenders, and reinforcement learning.",
-    image: Coursera_ML_Specialization,
-    link: "https://drive.google.com/file/d/16ul_L2eaEbxzCTUCJiqIVXFeW68AmMY6/view?usp=drive_link",
-    date: "2026-02-08",
-  },
-  {
-    name: "Unsupervised Learning, Recommenders, Reinforcement Learning",
-    description:
-      "Completed a Stanford Online course by DeepLearning.AI covering clustering, anomaly detection, recommender systems, and reinforcement learning fundamentals.",
-    image: Coursera_ML3,
-    link: "https://drive.google.com/file/d/1S8HFLpeZ2ogfiSkxjq2JDcXs3jeydm0C/view?usp=drive_link",
-    date: "2026-02-08",
-  },
-
-  {
     name: "Advanced Learning Algorithms",
     description:
       "Completed an advanced Stanford Online course by DeepLearning.AI focusing on neural networks, decision trees, ensemble methods, and practical machine learning optimization techniques.",
@@ -272,7 +254,15 @@ export const certificates = [
     name: "DataCamp SQL2",
     description: "Completed the DataCamp SQL2 program.",
     image: DC_SQL2,
-    link: "https://drive.google.com/file/d/1zsnBW_D3lPSpc4yJtf_hJUBSQk7IQ35P/view?usp=sharing",
+    link: "https://drive.google.com/file/d/14ji2JopnQ0_iPardpA4bb9O7I2wHH6uW/view?usp=drive_link",
     date: "2025-03-02",
   },
+  {
+    name: "Business English Track - DEPI",
+    description:
+      "Completed the Business English Track program with Digital Egypt Pioneers Initiative - DEPI",
+    image: DEPI_EN,
+    link: "https://drive.google.com/file/d/1dDgry6VGPg0bykLPCUiwksQnnLROc0kS/view?usp=drive_link",
+    date: "2025-12-01",
+  }
 ];

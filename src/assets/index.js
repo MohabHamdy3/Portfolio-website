@@ -44,6 +44,7 @@ import Coursera_ML1 from "./certificates/Coursera-ML1.png";
 import Coursera_ML2 from "./certificates/Coursera-ML2.png";
 import Coursera_ML3 from "./certificates/Coursera-ML3.png";
 import Coursera_ML_Specialization from "./certificates/Coursera-ML-Specialization.png";
+import DEPI_EN from "./certificates/DEPI-Business-English.png";
 
 
 
@@ -86,4 +87,5 @@ export {
   Coursera_ML2,
   Coursera_ML3,
   Coursera_ML_Specialization,
+  DEPI_EN,
 };

@@ -14,7 +14,7 @@ const Navbar = () => {
 
   const toggleResume = () => {
     const resumeUrl =
-      "https://drive.google.com/file/d/1RFMmB3Ze2OHXb8IbNDOfZMv488ilRR2M/view?usp=sharing.pdf";
+      "https://drive.google.com/file/d/1w7F55rlBYtRKafD2BPtLy0X1qpIMvFzZ/view?usp=drive_link";
     window.open(resumeUrl, "_blank");
   };
 

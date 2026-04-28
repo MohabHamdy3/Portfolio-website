@@ -47,14 +47,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a Computer Science and AI student at Cairo University with a strong
-        foundation in software engineering, object-oriented programming, and
-        data structures. Skilled full-stack developer with hands-on experience
-        in building web applications using React and Node.js. Passionate about
-        artificial intelligence and machine learning, with a strong interest in
-        developing intelligent and scalable software solutions. Known for being
-        a proactive team player with strong collaboration and leadership skills
-        gained through academic projects and team-based development work.
+        AI/ML Engineer and Computer Science student specializing in Artificial
+        Intelligence at Cairo University, with a strong background in Machine
+        Learning, Deep Learning, and Computer Vision. Hands-on experience
+        building real-world AI models and intelligent systems, with a focus on
+        developing scalable solutions and integrating AI into practical
+        applications. Strong programming and full-stack development experience
+        using React and Node.js, combined with proven technical problem-solving,
+        communication, teamwork, and leadership skills through team-based
+        projects.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

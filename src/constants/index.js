@@ -3,23 +3,23 @@ import {
   java,
   cpp,
   javascript,
-  html,
-  css,
-  reactjs,
-  tailwind,
-  nodejs,
-  git,
+  // html,
+  // css,
+  // reactjs,
+  // tailwind,
+  // nodejs,
+  // git,
+  // django,
+  // express,
+  // mysql,
+  // sqlserver,
+  // mongodb,
+  // tensorflow,
+  // sklearn,
+  // azure,
+  // github,
   ROUTE,
   DEPI,
-  django,
-  express,
-  mysql,
-  sqlserver,
-  mongodb,
-  tensorflow,
-  sklearn,
-  azure,
-  github,
   recipefinder,
   freshcart,
   sarahaapp,
@@ -36,7 +36,8 @@ import {
   Coursera_ML1,
   Coursera_ML2,
   Coursera_ML3,
-  Coursera_ML_Specialization
+  Coursera_ML_Specialization,
+  Coursera_CNN,
 } from "../assets/index.js";
 
 export const navLinks = [
@@ -69,20 +70,20 @@ export const services = [
   { title: "Java", icon: java },
 ];
 
-export const technologies = [
-  { name: "HTML 5", icon: html },
-  { name: "CSS 3", icon: css },
-  { name: "JavaScript", icon: javascript },
-  { name: "React JS", icon: reactjs },
-  { name: "Tailwind CSS", icon: tailwind },
-  { name: "Node JS", icon: nodejs },
-  { name: "Django", icon: django },
-  { name: "Express JS", icon: express },
-  { name: "MySQL", icon: mysql },
-  { name: "MongoDB", icon: mongodb },
-  { name: "Python", icon: python },
-  { name: "Git", icon: git },
-];
+// export const technologies = [
+//   { name: "HTML 5", icon: html },
+//   { name: "CSS 3", icon: css },
+//   { name: "JavaScript", icon: javascript },
+//   { name: "React JS", icon: reactjs },
+//   { name: "Tailwind CSS", icon: tailwind },
+//   { name: "Node JS", icon: nodejs },
+//   { name: "Django", icon: django },
+//   { name: "Express JS", icon: express },
+//   { name: "MySQL", icon: mysql },
+//   { name: "MongoDB", icon: mongodb },
+//   { name: "Python", icon: python },
+//   { name: "Git", icon: git },
+// ];
 
 export const experiences = [
   {
@@ -199,6 +200,14 @@ export const projects = [
 ];
 
 export const certificates = [
+  {
+  name: "Convolutional Neural Networks",
+  description:
+    "Completed the Convolutional Neural Networks course by DeepLearning.AI on Coursera, covering CNN architectures, object detection, face recognition, neural style transfer, and practical computer vision applications.",
+  image: Coursera_CNN,
+  link: "https://coursera.org/share/e9b5b6a540a6a6701e265ecc84f4f6f0",
+  date: "2026-06-20",
+},
   {
     name: "Machine Learning Engineer Scholarship",
     description:

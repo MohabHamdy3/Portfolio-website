@@ -4,20 +4,20 @@ import python from "./tech-stack/python.png";
 import java from "./tech-stack/java.png";
 import cpp from "./tech-stack/cpp.png";
 import javascript from "./tech/javascript.png";
-import html from "./tech/html.png";
-import css from "./tech/css.png";
-import reactjs from "./tech/reactjs.png";
-import tailwind from "./tech/tailwind.png";
-import nodejs from "./tech/nodejs.png";
-import git from "./tech/git.png";
-import django from "./tech/django.png";
-import express from "./tech/express-js.png";
-import mysql from "./tech/mysql.png";
-import sqlserver from "./tech/sqlServer.png";
-import mongodb from "./tech/mongodb.png";
-import tensorflow from "./tech/tensorflow.png";
-import sklearn from "./tech/sklearn.png";
-import azure from "./tech/azure.png";
+// import html from "./tech/html.png";
+// import css from "./tech/css.png";
+// import reactjs from "./tech/reactjs.png";
+// import tailwind from "./tech/tailwind.png";
+// import nodejs from "./tech/nodejs.png";
+// import git from "./tech/git.png";
+// import django from "./tech/django.png";
+// import express from "./tech/express-js.png";
+// import mysql from "./tech/mysql.png";
+// import sqlserver from "./tech/sqlServer.png";
+// import mongodb from "./tech/mongodb.png";
+// import tensorflow from "./tech/tensorflow.png";
+// import sklearn from "./tech/sklearn.png";
+// import azure from "./tech/azure.png";
 import github from "./tech/github.png";
 
 // ========== Companies / Organizations ==========
@@ -45,7 +45,7 @@ import Coursera_ML2 from "./certificates/Coursera-ML2.png";
 import Coursera_ML3 from "./certificates/Coursera-ML3.png";
 import Coursera_ML_Specialization from "./certificates/Coursera-ML-Specialization.png";
 import DEPI_EN from "./certificates/DEPI-Business-English.png";
-
+import Coursera_CNN from "./certificates/Coursera-CNN.png";
 
 
 // ========== Export ==========
@@ -54,22 +54,22 @@ export {
   java,
   cpp,
   javascript,
-  html,
-  css,
-  reactjs,
-  tailwind,
-  nodejs,
-  git,
+  // html,
+  // css,
+  // reactjs,
+  // tailwind,
+  // nodejs,
+  // git,
   ROUTE,
   DEPI,
-  django,
-  express,
-  mysql,
-  sqlserver,
-  mongodb,
-  tensorflow,
-  sklearn,
-  azure,
+  // django,
+  // express,
+  // mysql,
+  // sqlserver,
+  // mongodb,
+  // tensorflow,
+  // sklearn,
+  // azure,
   github,
   recipefinder,
   freshcart,
@@ -88,4 +88,5 @@ export {
   Coursera_ML3,
   Coursera_ML_Specialization,
   DEPI_EN,
+  Coursera_CNN
 };

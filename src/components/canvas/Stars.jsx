@@ -4,7 +4,7 @@ import { Points, PointMaterial, Preload } from "@react-three/drei";
 import * as random from "maath/random/dist/maath-random.esm";
 import "../../index.css";
 
-const NUM_STARS = 1500; // Adjust the number of stars as needed
+const NUM_STARS = 1000; // Adjust the number of stars as needed
 
 const Stars = () => {
   const ref = useRef({
